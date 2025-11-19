@@ -1,7 +1,8 @@
 {
   "version": 2,
   "framework": "vite",
-  "installCommand": "cd esmsm-trading-app && npm install",
-  "buildCommand": "cd esmsm-trading-app && npm run build",
+  "installCommand": "npm install --prefix esmsm-trading-app",
+  "buildCommand": "npm run build --prefix esmsm-trading-app",
   "outputDirectory": "esmsm-trading-app/dist"
 }
+
